@@ -1,0 +1,16 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "C_Cpp.default.configurationProvider": "particle.particle-vscode-core",
+    "cortex-debug.openocdPath": "${command:particle.getDebuggerOpenocdPath}",
+    "files.associations": {
+        "*.ino": "cpp"
+    },
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "explorerExclude.backup": null
+}
